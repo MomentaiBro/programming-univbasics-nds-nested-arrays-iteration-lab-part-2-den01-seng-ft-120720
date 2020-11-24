@@ -3,5 +3,15 @@ min_temps = []
 row_index= 0 
 while row_index < src.count do
   element_index = 0 
-  min_temp
+  while element_index < src[row_index].count do
+    
+    if src[row_index][element_index] == src[row_index][element_index].min 
+      
+      min_temps << src[row_index][element_index]
+    end
+    element_index += 1 
+  end
+  row_index += 1 
+
+src
 end
